@@ -15,7 +15,10 @@ What did you need to do to provision a vm to:
 ## General Environment Questions
 ​
 - What are development environments?
+A development environment in software and web development is a workspace for developers to make changes without breaking anything in a live environment.
 - How do they relate to an application?
+You should use a development environment if you want to make sure not to break anything on your live environments that your users see. By using a development environment for your website, you'll have a place to make all of the changes you want, without the users of your website will notice.
+
 ​
 ### Virtual machines
 ​
@@ -26,7 +29,11 @@ What did you need to do to provision a vm to:
 ### Vagrant
 ​
 - What is vagrant?
+Vagrant is a tool for building and managing virtual machine environments in a single workflow.
+
 - What is a `VagrantFile`?
+sults (0.41 seconds) 
+A Vagrantfile is a Ruby file that instructs Vagrant to create, depending on how it is executed, new Vagrant machines or boxes.
 ​
 #### CLI commands
 ​
