@@ -23,11 +23,14 @@ You should use a development environment if you want to make sure not to break a
 ### Virtual machines
 ​
 - What is a virtual machine?
+a computer system created using software on one physical computer in order to emulate the functionality of another separate physical computer.
 - What does it allow you to do?
+Because the software is separate from the physical host computer, users can run multiple OS instances on a single piece of hardware, saving a company time, management costs and physical space.
 - How have you used one?
+
 ​
 ### Vagrant
-​
+
 - What is vagrant?
 Vagrant is a tool for building and managing virtual machine environments in a single workflow.
 
@@ -49,5 +52,6 @@ A Vagrantfile is a Ruby file that instructs Vagrant to create, depending on how 
 #### Provisioning
 ​
 - What is Provisioning in relation to Vagrant?
+Provisioners in Vagrant allow you to automatically install software, alter configurations, and more on the machine as part of the vagrant up process.
 ​
 ---
