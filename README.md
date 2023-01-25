@@ -29,10 +29,9 @@ Update the mongod.config file with the correct conection settings to direct traf
 ## General Environment Questions
 ​
 - What are development environments?
-
 A development environment in software and web development is a workspace for developers to make changes without breaking anything in a live environment.
-- How do they relate to an application?
 
+- How do they relate to an application?
 You should use a development environment if you want to make sure not to break anything on your live environments that your users see. By using a development environment for your website, you'll have a place to make all of the changes you want, without the users of your website will notice.
 
 ​
