@@ -45,6 +45,7 @@ A virtual machine is a computer system created using software on one physical co
 
 It allows you too separate from the physical host computer, users can run multiple OS instances on a single piece of hardware, saving a company time, management costs and physical space.
 - How have you used one?
+We ran servers on them for example apache 
 
 
 
