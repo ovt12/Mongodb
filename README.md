@@ -65,9 +65,9 @@ A Vagrantfile is a Ruby file that instructs Vagrant to create, depending on how 
 | --------- | ---------------- | -------------------- |
 | reload    | The equivalent of running a halt followed by an up. This command is usually required for changes made in the Vagrantfile to take effect.                 | After making any modifications to the Vagrantfile, a reload should be called.                      |
 | up        |This command creates and configures guest machines according to your Vagrantfile.                  |When I needed to create my vagrant Virtual Machines                      |
-| provision |Runs any configured provisioners against the running Vagrant managed machine.                  |This command is a great way to quickly test any provisioners, and is especially useful for incremental development of shell scripts                      |
-| destroy   |This command stops the running machine Vagrant is managing and destroys all resources that were created during the machine creation process                  |When you want your computer to be left at a clean state, as if you never created the guest machine in the first place                      |
-| suspend   |This suspends the guest machine Vagrant is managing, rather than fully shutting it down or destroying it.                 |When you need to work on the VM but don't need it running in the background                      |
+| provision |Runs any configured provisioners against the running Vagrant managed machine.                  |I used this command when the virtual machine is running and changes have been made to the shell scripts                      |
+| destroy   |This command stops the running machine Vagrant is managing and destroys all resources that were created during the machine creation process                  |When I wanted my computer to be left at a clean state, as if you never created the guest machine in the first place                      |
+| suspend   |This suspends the guest machine Vagrant is managing, rather than fully shutting it down or destroying it.                 |When I needed to work on the VM but didn't need it running in the background                      |
 | ssh       |You can connect to your virtual machine (and verify that it is running) by using an SSH connection: vagrant ssh                  | We went into our virtual machines to change some of the config files to get our Apache up and running.                      |
 ​
 #### Provisioning
