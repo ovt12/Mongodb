@@ -39,11 +39,11 @@ You should use a development environment if you want to make sure not to break a
 ### Virtual machines
 ​
 - What is a virtual machine?
-
 A virtual machine is a computer system created using software on one physical computer in order to emulate the functionality of another separate physical computer.
-- What does it allow you to do?
 
+- What does it allow you to do?
 It allows you too separate from the physical host computer, users can run multiple OS instances on a single piece of hardware, saving a company time, management costs and physical space.
+
 - How have you used one?
 We ran servers on them for example apache 
 
