@@ -2,13 +2,26 @@
 ​
 What did you need to do to provision a vm to run mongo db?
 
+- setup vagrant on your machine
+- configure the vagrant file 
+- create shell script for app & mongodb to run
+- Then use vagrant up to run the machines
+
 ​
 What did you need to do to provision a vm to:
 ​
 - Run the node.js application?
+To Run the application you would run via node /script.js at the end of the script.sh
+
 - Use the `nology.training` alias?
+Add some options of ServerName and ServerAlias to the nology-proxy.conf
+
 - Use apache server to dirent traffic to a given port?
+Installed Apache server and copied the nology-proxy into the config file in apache2/sites-available
+
 - How are you able to pass in the DB connection string?
+
+
 ​
 ---
 ​
@@ -26,11 +39,13 @@ You should use a development environment if you want to make sure not to break a
 ​
 - What is a virtual machine?
 
-a computer system created using software on one physical computer in order to emulate the functionality of another separate physical computer.
+A virtual machine is a computer system created using software on one physical computer in order to emulate the functionality of another separate physical computer.
 - What does it allow you to do?
 
-Because the software is separate from the physical host computer, users can run multiple OS instances on a single piece of hardware, saving a company time, management costs and physical space.
+It allows you too separate from the physical host computer, users can run multiple OS instances on a single piece of hardware, saving a company time, management costs and physical space.
 - How have you used one?
+
+
 
 ​
 ### Vagrant
@@ -41,7 +56,6 @@ Vagrant is a tool for building and managing virtual machine environments in a si
 
 - What is a `VagrantFile`?
 
-sults (0.41 seconds) 
 A Vagrantfile is a Ruby file that instructs Vagrant to create, depending on how it is executed, new Vagrant machines or boxes.
 ​
 #### CLI commands
@@ -58,7 +72,6 @@ A Vagrantfile is a Ruby file that instructs Vagrant to create, depending on how 
 #### Provisioning
 ​
 - What is Provisioning in relation to Vagrant?
-
 Provisioners in Vagrant allow you to automatically install software, alter configurations, and more on the machine as part of the vagrant up process.
 ​
 ---
