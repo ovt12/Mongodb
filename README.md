@@ -20,6 +20,7 @@ Add some options of ServerName and ServerAlias to the nology-proxy.conf
 Installed Apache server and copied the nology-proxy into the config file in apache2/sites-available
 
 - How are you able to pass in the DB connection string?
+Update the mongod.config file with the correct conection settings to direct traffic
 
 
 ​
