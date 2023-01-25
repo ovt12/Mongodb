@@ -52,11 +52,9 @@ We ran servers on them for example apache
 ### Vagrant
 
 - What is vagrant?
-
 Vagrant is a tool for building and managing virtual machine environments in a single workflow.
 
 - What is a `VagrantFile`?
-
 A Vagrantfile is a Ruby file that instructs Vagrant to create, depending on how it is executed, new Vagrant machines or boxes.
 ​
 #### CLI commands
